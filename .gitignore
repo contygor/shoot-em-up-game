@@ -1,0 +1,27 @@
+# Java build output
+out/
+build/
+target/
+*.class
+
+# IntelliJ IDEA and other IDE metadata
+.idea/
+*.iml
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
